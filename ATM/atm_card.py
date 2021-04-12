@@ -9,4 +9,3 @@ class ATMcard:
 
     def cekSaldoAwal(self):
         return self.defaultBalance
-    
