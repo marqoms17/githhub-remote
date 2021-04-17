@@ -88,7 +88,7 @@ arr.forEach(function(e,i) {
      console.log(`mahasiswa konoha ke-${i+1} adalah ${e}`);
  })
 
-
+// function declaration
 function dataMahasiswa(nama, npm, jurusan) {
     var mhs = {};
     mhs.nama = nama;
@@ -98,3 +98,12 @@ function dataMahasiswa(nama, npm, jurusan) {
 }
 
 var mhs1 = dataMahasiswa('Elon Musk', 201987834109, 'Teknik Elektro');
+
+//Constructor
+function Mahasiswa(nama, npm, jurusan) {
+    this.nama = nama;
+    this.npm = npm;
+    this.jurusan = jurusan;
+}
+
+mhs2 = new Mahasiswa('Mark Zuckerberg', 202019828108,'Teknik Informatika');
