@@ -7,7 +7,7 @@ h2 {
 
 
 .jumbotron {
-    background-image: url(Wedding_Project/Assets/img/w1.jpg);
+    background-image: url(Assets/img/w1.jpg);
     background-size: cover;
     font-family: 'Sacramento', cursive;
     height: 800px;
@@ -82,7 +82,7 @@ h2 {
 .content5 {
     margin: auto;
     height: 550px;
-    background-image: url(Wedding_Project/Assets/img/wd-2.jpg);
+    background-image: url(Assets/img/wd-2.jpg);
     background-size: cover;
     background-position: 0 -700px;
 }
@@ -91,7 +91,7 @@ h2 {
 .content6 {
     margin: auto;
     height: 600px;
-    background-image: url(Wedding_Project/Assets/img/wd-3.jpg);
+    background-image: url(Assets/img/wd-3.jpg);
     background-size: cover;
     background-position: 0 -300px;
 }
